@@ -1,0 +1,51 @@
+.navbar {
+  background: linear-gradient(to right, #1e90ff, #2538b2); /* Warna latar belakang navbar */
+  color: #fff; /* Warna teks navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  font-size: 16px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-item a:hover {
+  color: #00bcd4; /* Warna saat hover */
+}
+
+.navbar-login {
+  margin-left: auto;
+}
+
+.login-button {
+  background-color: #00bcd4; /* Warna tombol login */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #007a8a; /* Warna saat hover tombol login */
+}
